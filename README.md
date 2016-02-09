@@ -16,7 +16,7 @@ class YourMultiStateTableViewController : MultiStateTableViewController {
 In order to show the loading state, just call showLoading() method from your view controller. For example. you can turn the view into the loading state when you are calling REST API to get the data for your table view:
 ```swift
 self.showLoading()
-// Call API to get your date for the table view ...
+// Call API to get the data for the table view ...
 ```
 
 When the API has returned the data, you can reload the table data and call showTable() to hide the loading state:
@@ -26,7 +26,7 @@ self.mainTableView?.reloadData()
 self.showTable()
 ```
 
-If your API somehow returned no data for your request, you can also use showMessage(message: String) method to tell user what happened:
+If your API somehow returned nothing for your request, you can use showMessage(message: String) method to tell user what happened:
 ```swift
 // API returned nothing ...
 self.showMessage("Your table is empty")
