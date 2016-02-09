@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EBDE3DD81C69AD20007620C4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBDE3DD71C69AD20007620C4 /* AppDelegate.swift */; };
+		EBDE3DDF1C69AD20007620C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBDE3DDE1C69AD20007620C4 /* Assets.xcassets */; };
+		EBDE3DE21C69AD20007620C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBDE3DE01C69AD20007620C4 /* LaunchScreen.storyboard */; };
+		EBDE3DED1C69AD20007620C4 /* MultiStateTableViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBDE3DEC1C69AD20007620C4 /* MultiStateTableViewControllerTests.swift */; };
+		EBDE3DF81C69AD20007620C4 /* MultiStateTableViewControllerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBDE3DF71C69AD20007620C4 /* MultiStateTableViewControllerUITests.swift */; };
+		EBDE3E0C1C69AE92007620C4 /* MultiStateTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBDE3E0B1C69AE92007620C4 /* MultiStateTableViewController.swift */; };
+		EBDE3E0D1C69AE92007620C4 /* MultiStateTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBDE3E0B1C69AE92007620C4 /* MultiStateTableViewController.swift */; };
+		EBDE3E0E1C69AE92007620C4 /* MultiStateTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBDE3E0B1C69AE92007620C4 /* MultiStateTableViewController.swift */; };
+		EBDE3E101C69AEC3007620C4 /* YourMultiStateTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBDE3E0F1C69AEC3007620C4 /* YourMultiStateTableViewController.swift */; };
+		EBDE3E111C69AEC3007620C4 /* YourMultiStateTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBDE3E0F1C69AEC3007620C4 /* YourMultiStateTableViewController.swift */; };
+		EBDE3E121C69AEC3007620C4 /* YourMultiStateTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBDE3E0F1C69AEC3007620C4 /* YourMultiStateTableViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EBDE3DE91C69AD20007620C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EBDE3DCC1C69AD20007620C4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EBDE3DD31C69AD20007620C4;
+			remoteInfo = MultiStateTableViewController;
+		};
+		EBDE3DF41C69AD20007620C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EBDE3DCC1C69AD20007620C4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EBDE3DD31C69AD20007620C4;
+			remoteInfo = MultiStateTableViewController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EBDE3DD41C69AD20007620C4 /* MultiStateTableViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultiStateTableViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBDE3DD71C69AD20007620C4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EBDE3DDE1C69AD20007620C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EBDE3DE11C69AD20007620C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EBDE3DE31C69AD20007620C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBDE3DE81C69AD20007620C4 /* MultiStateTableViewControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MultiStateTableViewControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBDE3DEC1C69AD20007620C4 /* MultiStateTableViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiStateTableViewControllerTests.swift; sourceTree = "<group>"; };
+		EBDE3DEE1C69AD20007620C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBDE3DF31C69AD20007620C4 /* MultiStateTableViewControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MultiStateTableViewControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBDE3DF71C69AD20007620C4 /* MultiStateTableViewControllerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiStateTableViewControllerUITests.swift; sourceTree = "<group>"; };
+		EBDE3DF91C69AD20007620C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBDE3E0B1C69AE92007620C4 /* MultiStateTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MultiStateTableViewController.swift; path = Source/MultiStateTableViewController.swift; sourceTree = "<group>"; };
+		EBDE3E0F1C69AEC3007620C4 /* YourMultiStateTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = YourMultiStateTableViewController.swift; path = Example/YourMultiStateTableViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EBDE3DD11C69AD20007620C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBDE3DE51C69AD20007620C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBDE3DF01C69AD20007620C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EBDE3DCB1C69AD20007620C4 = {
+			isa = PBXGroup;
+			children = (
+				EBDE3DD61C69AD20007620C4 /* MultiStateTableViewController */,
+				EBDE3DEB1C69AD20007620C4 /* MultiStateTableViewControllerTests */,
+				EBDE3DF61C69AD20007620C4 /* MultiStateTableViewControllerUITests */,
+				EBDE3DD51C69AD20007620C4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EBDE3DD51C69AD20007620C4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EBDE3DD41C69AD20007620C4 /* MultiStateTableViewController.app */,
+				EBDE3DE81C69AD20007620C4 /* MultiStateTableViewControllerTests.xctest */,
+				EBDE3DF31C69AD20007620C4 /* MultiStateTableViewControllerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EBDE3DD61C69AD20007620C4 /* MultiStateTableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				EBDE3E061C69ADED007620C4 /* Example */,
+				EBDE3E051C69ADE4007620C4 /* Source */,
+				EBDE3DD71C69AD20007620C4 /* AppDelegate.swift */,
+				EBDE3DDE1C69AD20007620C4 /* Assets.xcassets */,
+				EBDE3DE01C69AD20007620C4 /* LaunchScreen.storyboard */,
+				EBDE3DE31C69AD20007620C4 /* Info.plist */,
+			);
+			path = MultiStateTableViewController;
+			sourceTree = "<group>";
+		};
+		EBDE3DEB1C69AD20007620C4 /* MultiStateTableViewControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				EBDE3DEC1C69AD20007620C4 /* MultiStateTableViewControllerTests.swift */,
+				EBDE3DEE1C69AD20007620C4 /* Info.plist */,
+			);
+			path = MultiStateTableViewControllerTests;
+			sourceTree = "<group>";
+		};
+		EBDE3DF61C69AD20007620C4 /* MultiStateTableViewControllerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EBDE3DF71C69AD20007620C4 /* MultiStateTableViewControllerUITests.swift */,
+				EBDE3DF91C69AD20007620C4 /* Info.plist */,
+			);
+			path = MultiStateTableViewControllerUITests;
+			sourceTree = "<group>";
+		};
+		EBDE3E051C69ADE4007620C4 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				EBDE3E0B1C69AE92007620C4 /* MultiStateTableViewController.swift */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		EBDE3E061C69ADED007620C4 /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				EBDE3E0F1C69AEC3007620C4 /* YourMultiStateTableViewController.swift */,
+			);
+			name = Example;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EBDE3DD31C69AD20007620C4 /* MultiStateTableViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBDE3DFC1C69AD20007620C4 /* Build configuration list for PBXNativeTarget "MultiStateTableViewController" */;
+			buildPhases = (
+				EBDE3DD01C69AD20007620C4 /* Sources */,
+				EBDE3DD11C69AD20007620C4 /* Frameworks */,
+				EBDE3DD21C69AD20007620C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MultiStateTableViewController;
+			productName = MultiStateTableViewController;
+			productReference = EBDE3DD41C69AD20007620C4 /* MultiStateTableViewController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EBDE3DE71C69AD20007620C4 /* MultiStateTableViewControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBDE3DFF1C69AD20007620C4 /* Build configuration list for PBXNativeTarget "MultiStateTableViewControllerTests" */;
+			buildPhases = (
+				EBDE3DE41C69AD20007620C4 /* Sources */,
+				EBDE3DE51C69AD20007620C4 /* Frameworks */,
+				EBDE3DE61C69AD20007620C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EBDE3DEA1C69AD20007620C4 /* PBXTargetDependency */,
+			);
+			name = MultiStateTableViewControllerTests;
+			productName = MultiStateTableViewControllerTests;
+			productReference = EBDE3DE81C69AD20007620C4 /* MultiStateTableViewControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EBDE3DF21C69AD20007620C4 /* MultiStateTableViewControllerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBDE3E021C69AD20007620C4 /* Build configuration list for PBXNativeTarget "MultiStateTableViewControllerUITests" */;
+			buildPhases = (
+				EBDE3DEF1C69AD20007620C4 /* Sources */,
+				EBDE3DF01C69AD20007620C4 /* Frameworks */,
+				EBDE3DF11C69AD20007620C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EBDE3DF51C69AD20007620C4 /* PBXTargetDependency */,
+			);
+			name = MultiStateTableViewControllerUITests;
+			productName = MultiStateTableViewControllerUITests;
+			productReference = EBDE3DF31C69AD20007620C4 /* MultiStateTableViewControllerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EBDE3DCC1C69AD20007620C4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Soo Yung Cho";
+				TargetAttributes = {
+					EBDE3DD31C69AD20007620C4 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = N8TTH898NP;
+					};
+					EBDE3DE71C69AD20007620C4 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = N8TTH898NP;
+						TestTargetID = EBDE3DD31C69AD20007620C4;
+					};
+					EBDE3DF21C69AD20007620C4 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = N8TTH898NP;
+						TestTargetID = EBDE3DD31C69AD20007620C4;
+					};
+				};
+			};
+			buildConfigurationList = EBDE3DCF1C69AD20007620C4 /* Build configuration list for PBXProject "MultiStateTableViewController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EBDE3DCB1C69AD20007620C4;
+			productRefGroup = EBDE3DD51C69AD20007620C4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EBDE3DD31C69AD20007620C4 /* MultiStateTableViewController */,
+				EBDE3DE71C69AD20007620C4 /* MultiStateTableViewControllerTests */,
+				EBDE3DF21C69AD20007620C4 /* MultiStateTableViewControllerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EBDE3DD21C69AD20007620C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBDE3DE21C69AD20007620C4 /* LaunchScreen.storyboard in Resources */,
+				EBDE3DDF1C69AD20007620C4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBDE3DE61C69AD20007620C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBDE3DF11C69AD20007620C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EBDE3DD01C69AD20007620C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBDE3E101C69AEC3007620C4 /* YourMultiStateTableViewController.swift in Sources */,
+				EBDE3DD81C69AD20007620C4 /* AppDelegate.swift in Sources */,
+				EBDE3E0C1C69AE92007620C4 /* MultiStateTableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBDE3DE41C69AD20007620C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBDE3E111C69AEC3007620C4 /* YourMultiStateTableViewController.swift in Sources */,
+				EBDE3DED1C69AD20007620C4 /* MultiStateTableViewControllerTests.swift in Sources */,
+				EBDE3E0D1C69AE92007620C4 /* MultiStateTableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBDE3DEF1C69AD20007620C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBDE3E121C69AEC3007620C4 /* YourMultiStateTableViewController.swift in Sources */,
+				EBDE3DF81C69AD20007620C4 /* MultiStateTableViewControllerUITests.swift in Sources */,
+				EBDE3E0E1C69AE92007620C4 /* MultiStateTableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EBDE3DEA1C69AD20007620C4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EBDE3DD31C69AD20007620C4 /* MultiStateTableViewController */;
+			targetProxy = EBDE3DE91C69AD20007620C4 /* PBXContainerItemProxy */;
+		};
+		EBDE3DF51C69AD20007620C4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EBDE3DD31C69AD20007620C4 /* MultiStateTableViewController */;
+			targetProxy = EBDE3DF41C69AD20007620C4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EBDE3DE01C69AD20007620C4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EBDE3DE11C69AD20007620C4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EBDE3DFA1C69AD20007620C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EBDE3DFB1C69AD20007620C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EBDE3DFD1C69AD20007620C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MultiStateTableViewController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.sooyungcho.MultiStateTableViewController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EBDE3DFE1C69AD20007620C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MultiStateTableViewController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.sooyungcho.MultiStateTableViewController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EBDE3E001C69AD20007620C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MultiStateTableViewControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.sooyungcho.MultiStateTableViewControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MultiStateTableViewController.app/MultiStateTableViewController";
+			};
+			name = Debug;
+		};
+		EBDE3E011C69AD20007620C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MultiStateTableViewControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.sooyungcho.MultiStateTableViewControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MultiStateTableViewController.app/MultiStateTableViewController";
+			};
+			name = Release;
+		};
+		EBDE3E031C69AD20007620C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MultiStateTableViewControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.sooyungcho.MultiStateTableViewControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MultiStateTableViewController;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		EBDE3E041C69AD20007620C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MultiStateTableViewControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.sooyungcho.MultiStateTableViewControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MultiStateTableViewController;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EBDE3DCF1C69AD20007620C4 /* Build configuration list for PBXProject "MultiStateTableViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBDE3DFA1C69AD20007620C4 /* Debug */,
+				EBDE3DFB1C69AD20007620C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBDE3DFC1C69AD20007620C4 /* Build configuration list for PBXNativeTarget "MultiStateTableViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBDE3DFD1C69AD20007620C4 /* Debug */,
+				EBDE3DFE1C69AD20007620C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EBDE3DFF1C69AD20007620C4 /* Build configuration list for PBXNativeTarget "MultiStateTableViewControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBDE3E001C69AD20007620C4 /* Debug */,
+				EBDE3E011C69AD20007620C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EBDE3E021C69AD20007620C4 /* Build configuration list for PBXNativeTarget "MultiStateTableViewControllerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBDE3E031C69AD20007620C4 /* Debug */,
+				EBDE3E041C69AD20007620C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EBDE3DCC1C69AD20007620C4 /* Project object */;
+}
