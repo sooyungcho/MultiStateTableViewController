@@ -30,7 +30,7 @@ class MultiStateTableViewController: UIViewController {
 
         self.mainMessageLabel = UILabel()
         self.mainMessageLabel?.translatesAutoresizingMaskIntoConstraints = false
-        self.mainMessageLabel?.font = UIFont(name: "HelveticaNeue", size: 16.0)
+        self.mainMessageLabel?.font = UIFont.systemFontOfSize(16.0)
         self.mainMessageLabel?.textColor = UIColor.lightGrayColor()
         self.mainMessageLabel?.textAlignment = .Center
         self.mainMessageLabel?.numberOfLines = 0
