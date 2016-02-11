@@ -18,6 +18,7 @@ In order to show the loading state, just call showLoading() method from your vie
 self.showLoading()
 // Call API to get the data for the table view ...
 ```
+![Alt text](/demo_show_loading.png?raw=true "Loading State of MultiStateTableViewController")
 
 When the API has returned the data, you can reload the table data and call showTable() to hide the loading state:
 ```swift
@@ -25,9 +26,11 @@ When the API has returned the data, you can reload the table data and call showT
 self.mainTableView?.reloadData()
 self.showTable()
 ```
+![Alt text](/demo_show_table.png?raw=true "Normal State of MultiStateTableViewController")
 
 If your API somehow returned nothing for your request, you can use showMessage(message: String) method to tell user what happened:
 ```swift
 // API returned nothing ...
 self.showMessage("Your table is empty")
 ```
+![Alt text](/demo_show_empty.png?raw=true "Empty State of MultiStateTableViewController")
