@@ -1,9 +1,8 @@
 //
 //  MultiStateTableViewController.swift
 //  
-//  MultiStateTableViewController allow you to simply implement a table view that has
-//  multiple states. The view can simply transform into a loading state or an empty result
-//  state depending on the current state of your table data.
+//  MultiStateTableViewController implements a table view that can simply be transformed
+//  into a loading state or an empty result state.
 //
 //  Created by Soo-Yung Cho on 8/22/15.
 //  Copyright (c) 2015 Soo Yung Cho. All rights reserved.

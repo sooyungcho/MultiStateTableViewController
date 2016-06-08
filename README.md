@@ -2,7 +2,7 @@
 
 ## Goal
 
-MultiStateTableViewController allow you to simply implement a table view that has multiple states. The view can simply transform into a loading state or an empty result state depending on the current state of your table data.
+MultiStateTableViewController implements a table view that can simply be transformed into a loading state or an empty result state. This controller is useful when you are calling REST API to display data in a table view. The view should be in the loading state when loading the data from REST API. If somehow REST API returns no results or fails to load, a proper error message can be displayed to users through the empty state.
 
 ![Alt text](/multi_state_main_screens.png?raw=true "Loading State of MultiStateTableViewController")
 
