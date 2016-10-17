@@ -16,7 +16,7 @@ class YourMultiStateTableViewController : MultiStateTableViewController {
         super.viewDidLoad()
 
         self.navigationItem.title = "Demo"
-        self.navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Change", style: UIBarButtonItemStyle.Done, target: self, action: #selector(changeState))
+        self.navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Change", style: UIBarButtonItemStyle.done, target: self, action: #selector(changeState))
     }
 
     func changeState() {

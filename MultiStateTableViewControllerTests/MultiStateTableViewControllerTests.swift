@@ -26,20 +26,20 @@ class MultiStateTableViewControllerTests: XCTestCase {
     
     func testMultiStates() {
         self.multiStateTableViewController?.showLoading()
-        XCTAssert(self.multiStateTableViewController?.mainTableView?.hidden == true)
-        XCTAssert(self.multiStateTableViewController?.mainActivityIndicatorView?.hidden == false)
-        XCTAssert(self.multiStateTableViewController?.mainMessageLabel?.hidden == true)
+        XCTAssert(self.multiStateTableViewController?.mainTableView.isHidden == true)
+        XCTAssert(self.multiStateTableViewController?.mainActivityIndicatorView.isHidden == false)
+        XCTAssert(self.multiStateTableViewController?.mainMessageLabel.isHidden == true)
 
         self.multiStateTableViewController?.showTable()
-        XCTAssert(self.multiStateTableViewController?.mainTableView?.hidden == false)
-        XCTAssert(self.multiStateTableViewController?.mainActivityIndicatorView?.hidden == true)
-        XCTAssert(self.multiStateTableViewController?.mainMessageLabel?.hidden == true)
+        XCTAssert(self.multiStateTableViewController?.mainTableView.isHidden == false)
+        XCTAssert(self.multiStateTableViewController?.mainActivityIndicatorView.isHidden == true)
+        XCTAssert(self.multiStateTableViewController?.mainMessageLabel.isHidden == true)
 
         self.multiStateTableViewController?.showMessage("Your table is empty")
-        XCTAssert(self.multiStateTableViewController?.mainTableView?.hidden == true)
-        XCTAssert(self.multiStateTableViewController?.mainActivityIndicatorView?.hidden == true)
-        XCTAssert(self.multiStateTableViewController?.mainMessageLabel?.hidden == false)
-        XCTAssertEqual(self.multiStateTableViewController?.mainMessageLabel?.text, "Your table is empty")
+        XCTAssert(self.multiStateTableViewController?.mainTableView.isHidden == true)
+        XCTAssert(self.multiStateTableViewController?.mainActivityIndicatorView.isHidden == true)
+        XCTAssert(self.multiStateTableViewController?.mainMessageLabel.isHidden == false)
+        XCTAssertEqual(self.multiStateTableViewController?.mainMessageLabel.text, "Your table is empty")
     }
     
 }
