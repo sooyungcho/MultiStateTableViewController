@@ -16,7 +16,7 @@ class MultiStateTableViewControllerTests: XCTestCase {
     override func setUp() {
         super.setUp()
 
-        self.multiStateTableViewController = MultiStateTableViewController()
+        self.multiStateTableViewController = MultiStateTableViewController(tableStyle: .plain)
         self.multiStateTableViewController?.viewDidLoad()
     }
     
@@ -35,7 +35,7 @@ class MultiStateTableViewControllerTests: XCTestCase {
         XCTAssert(self.multiStateTableViewController?.mainActivityIndicatorView.isHidden == true)
         XCTAssert(self.multiStateTableViewController?.mainMessageLabel.isHidden == true)
 
-        self.multiStateTableViewController?.showMessage("Your table is empty")
+        self.multiStateTableViewController?.showMessage(message: "Your table is empty")
         XCTAssert(self.multiStateTableViewController?.mainTableView.isHidden == true)
         XCTAssert(self.multiStateTableViewController?.mainActivityIndicatorView.isHidden == true)
         XCTAssert(self.multiStateTableViewController?.mainMessageLabel.isHidden == false)

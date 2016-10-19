@@ -26,7 +26,7 @@ class YourMultiStateTableViewController : MultiStateTableViewController {
         if stateType == 1 {
             self.showLoading()
         } else if stateType == 2 {
-            self.showMessage("Your table is empty")
+            self.showMessage(message: "Your table is empty")
         } else {
             self.showTable()
         }

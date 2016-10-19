@@ -16,8 +16,8 @@ class MultiStateTableViewController: UIViewController {
     var mainActivityIndicatorView: UIActivityIndicatorView
     var mainMessageLabel: UILabel
 
-    init() {
-        self.mainTableView = UITableView()
+    init(tableStyle: UITableViewStyle) {
+        self.mainTableView = UITableView(frame: UIScreen.main.bounds, style: tableStyle)
         self.mainActivityIndicatorView = UIActivityIndicatorView()
         self.mainMessageLabel = UILabel()
 
@@ -69,7 +69,7 @@ class MultiStateTableViewController: UIViewController {
         self.mainActivityIndicatorView.startAnimating()
     }
 
-    func showMessage(_ message: String) {
+    func showMessage(message: String) {
         self.mainActivityIndicatorView.stopAnimating()
         self.mainTableView.isHidden = true
 
@@ -77,7 +77,7 @@ class MultiStateTableViewController: UIViewController {
         self.mainMessageLabel.isHidden = false
     }
 
-    fileprivate func setViewConstraints() {
+    private func setViewConstraints() {
         let viewsDictionary = ["mainTableView": self.mainTableView, "mainActivityIndicatorView": self.mainActivityIndicatorView, "mainMessageLabel": self.mainMessageLabel] as [String : Any]
 
         let mainTableViewHeightCrt: Array = NSLayoutConstraint.constraints(withVisualFormat: "V:|-0-[mainTableView]-0-|", options: NSLayoutFormatOptions(rawValue: 0), metrics: nil, views: viewsDictionary)
